@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AudioHunt</title>
+    
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="top">
+        <h1 class="pageHeading">AUDIO HUNT<h1>
+    </div>
+
+    <div class="searchArea">
+        <input type="text" name="search" class="searchBox" id="searchtxtbox">
+        <button class="searchButton" type="submit" onclick="RunSearchQuery()"> </button>
+    </div>
+
+    <h2 class="pagenumber" id="curr_page">
+    </h2>
+
+    <div class="datacontainer" id="audiocontainer">
+        <main class="cards" id="cardsContainer">
+
+        </main>
+    </div>
+
+    <div class="pages" id="pagination">
+    </div>
+
+  
+    <script src="./src/js/jquery-3.3.1"></script>
+    <script src="./src/js/jscode.js"></script>
+</body>
+</html>
